@@ -3,6 +3,7 @@ export const getWords = async () => {
   try {
     const res = await fetch(`${url}/pages/api/words`, {
       cache: "no-store",
+      mode: "cors",
     });
 
     if (!res.ok) {
@@ -19,6 +20,7 @@ export const add = async (word, description) => {
   try {
     const res = await fetch(`${url}/pages/api/words`, {
       method: "POST",
+      mode: "cors",
       headers: {
         "Content-Type": "application/json",
       },
@@ -41,6 +43,7 @@ export const deleteWord = async (id) => {
   try {
     const res = await fetch(`${url}/pages/api/words?id=${id}`, {
       method: "DELETE",
+      mode: "cors",
     });
 
     if (res.ok) {
