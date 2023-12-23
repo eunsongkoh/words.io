@@ -1,3 +1,13 @@
+## ABOUT 
+words.io is a full stack application that allows a user to save words into a database. 
+The user has the option to add randomly generated words with a definition as well as to search up words. 
+
+## Tech Stack 
+- Next.js
+- MongoDB
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
