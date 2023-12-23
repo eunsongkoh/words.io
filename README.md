@@ -1,6 +1,9 @@
-## ABOUT 
-words.io is a full stack application that allows a user to save words into a database. 
-The user has the option to add randomly generated words with a definition as well as to search up words. 
+## About 
+Words.io is a full-stack application designed as a present for a family member. 
+The platform provides features such as:
+- adding randomly generated words along with their definitions
+- enables users to search for specific words
+to practice english comprehension and learning.
 
 ## Tech Stack 
 - Next.js
