@@ -4,7 +4,7 @@ import { deleteWord } from "@/app/pages/api/wordService/dbService";
 
 export default async function Card() {
   const resultData = await getWords();
-  const words = resultData.totalWords || [];
+  const words = resultData?.totalWords || [];
 
   if (Array.isArray(words)) {
     return (
