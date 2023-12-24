@@ -41,7 +41,7 @@ const RandomCard = () => {
   return (
     <a
       href="#"
-      className="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg m-8 shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
+      cclassName="m-8 block max-w-sm p-6 bg-gray-800 border border-gray-700 rounded-lg shadow hover:bg-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
     >
       <div className="max-w-sm rounded overflow-hidden shadow-lg">
         <div className="px-6 py-4">
