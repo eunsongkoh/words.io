@@ -7,9 +7,7 @@ to practice english comprehension and learning.
 
 ## Tech Stack 
 - Next.js
-- Node.js
-- MongoDB
-- Mongoose
+- MongoDB, Mongoose
 
 
 
